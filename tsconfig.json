@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "target": "ESNext",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "sourceMap": true,
+        "outDir": "../tests-out",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": false
+    }
+}
