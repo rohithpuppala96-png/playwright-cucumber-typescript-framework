@@ -7,12 +7,7 @@ export default class cartPage {
   constructor(private page: Page) {}
   private Elements = {
     productNamesInCart: "//div[@data-test='inventory-item-name']",
-    guestInput: "input[data-testid='test_Guest']",
-    dropdownValue:"//div[@data-testid='test-dropdown-list' and contains(@class,'visible')]//div[contains(@id,'ot-dropdown-item') and @title='replaceKey']",
-    projectNameInput: "input[aria-label='Project Name']",
-    projectTypeInput: "input[data-testid='test_Project-Type']",
-    projectTypeValue:"//div[@data-testid='test-dropdown-list' and contains(@class,'visible')]//div[contains(@id,'ot-dropdown-item') and @title='replaceKey']",
-    projectYearInput: "input[data-testid='test_Year']",
+
   };
 
   public async verifyCartProducts() {

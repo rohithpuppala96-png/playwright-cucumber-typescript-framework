@@ -5,7 +5,7 @@ Feature: Adding To Cart
         Given User logs in to required application
 
     @addToCart
-    Scenario: Add Products to Cart
+    Scenario Outline: Add Products to Cart
         Given The test fetches required data "<scenarioName>"
         When Adds Required Products to Cart
         Then User Clicks on Cart
